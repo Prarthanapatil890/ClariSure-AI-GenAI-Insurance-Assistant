@@ -32,10 +32,8 @@ ClariSure AI is a Generative AI agent designed to simplify and personalize the i
 - **LLM (API)**: Google Gemini API (for multilingual translation and chatbot)
 - **Others**: Plotly, PyMuPDF, JSON, OS
 
----
-
 ## 📂 Project Structure
-
+```
 clarisure-ai/
 │
 ├── app.py                  # Main Streamlit UI with all features
@@ -57,6 +55,7 @@ clarisure-ai/
 │
 ├── requirements.txt        # Python dependencies
 └── README.md               # You are here!
+```
 
 
 ## 🧪 Setup Instructions
