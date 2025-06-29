@@ -1,0 +1,8 @@
+streamlit
+plotly
+pillow
+requests
+google-generativeai
+streamlit-chat
+python-dotenv
+PyMuPDF
