@@ -38,25 +38,26 @@ ClariSure AI is a Generative AI agent designed to simplify and personalize the i
 
 clarisure-ai/
 │
-├── app.py # Main Streamlit UI with all features
-├── users.json # Stores fixed login credentials
-├── history_data/ # Per-user history .json files
+├── app.py                  # Main Streamlit UI with all features
+├── users.json              # Stores fixed login credentials
+├── history_data/           # Per-user history .json files
 │
 ├── utils/
-│ ├── genai_engine.py # Uses Ollama (Gemma 2B) for all feature prompts
-│ ├── gemini_engine.py # Gemini API: Insurance chatbot
-│ ├── translator.py # Gemini-powered multilingual translation
-│ ├── pdf_reader.py # Extracts text from uploaded PDFs
-│ └── history.py # Load, write, clear per-user history
+│   ├── genai_engine.py     # Uses Ollama (Gemma 2B) for all feature prompts
+│   ├── gemini_engine.py    # Gemini API: Insurance chatbot
+│   ├── translator.py       # Gemini-powered multilingual translation
+│   ├── pdf_reader.py       # Extracts text from uploaded PDFs
+│   └── history.py          # Load, write, clear per-user history
 │
 ├── assets/
-│ └── clarisure_logo.png # App logo for sidebar and splash
+│   └── clarisure_logo.png  # App logo for sidebar and splash
 │
 ├── .streamlit/
-│ └── config.toml # Optional Streamlit theming
+│   └── config.toml         # Optional Streamlit theming
 │
-├── requirements.txt # Python dependencies
-└── README.md # You are here!
+├── requirements.txt        # Python dependencies
+└── README.md               # You are here!
+
 
 ## 🧪 Setup Instructions
 
