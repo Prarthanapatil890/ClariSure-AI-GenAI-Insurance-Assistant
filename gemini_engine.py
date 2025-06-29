@@ -5,7 +5,7 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 load_dotenv()
 
-genai.configure(api_key=os.getenv("AIzaSyAmLrLrEsXkKPIhHQH_j42aoKWYV542mbA"))
+genai.configure(api_key=os.getenv("API_KEY"))
 
 def query_gemini(prompt):
     try:
